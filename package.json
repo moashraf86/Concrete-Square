@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@glidejs/glide": "^3.5.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
