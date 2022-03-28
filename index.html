@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -113,7 +114,7 @@
 
     <!-- Start Services  -->
     <div class="pt-24 pb-12 px-8 lg:px-16 text-center">
-      <h5 class="uppercase text-blue-800 font-medium text-sm text-center">Our Services</h5>
+      <h5 class="uppercase text-blue-800 font-medium text-md text-center">Our Services</h5>
       <h2 class="text-neutral-900 font-semibold text-3xl mt-4 mb-12">Featured Service that We Provide</h2>
       <div class="md:flex gap-x-14 ">
         <div class="mb-8 md:mb-0">
@@ -151,7 +152,7 @@
 
     <!-- Start Work Procedure -->
     <div class="relative py-12 px-8 lg:px-16 bg-[url('/images/shape-bg.svg')]">
-      <h5 class="uppercase text-blue-800 font-medium text-sm text-left">Work Procedure</h5>
+      <h5 class="uppercase text-blue-800 font-medium text-md text-left">Work Procedure</h5>
       <h2 class="text-neutral-900 font-semibold text-3xl mt-4 mb-12">How We Do Our Projects</h2>
       <div class="md:flex items-center justify-between gap-x-16 bg-[#FFFF] p-16">
         <!-- Slider -->
@@ -190,8 +191,33 @@
     </div>
     <!-- End Work Procedure -->
 
+    <!-- Start Our Team -->
+    <div class="py-12 px-8 lg:px-16">
+      <h5 class="uppercase text-blue-800 font-medium text-md text-left">Our Team Member</h5>
+      <h2 class="text-neutral-900 font-semibold text-3xl mt-4 mb-12">Meet Our Perfectionist</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="member">
+          <div class="img">
+            <img src="/images/member-1.jpg" alt="Member photo">
+          </div>
+          <div class="head">
+            <h3>Roman Ul Oman</h3>
+            <p>Project Manager</p>
+          </div>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Team -->
+
+    
     <!-- GlideJS -->
     <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
     <script>
       // Slider Num #1
       new Glide('.gallary', {
